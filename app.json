@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "gymProjectSide",
+    "slug": "gymProjectSide",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
