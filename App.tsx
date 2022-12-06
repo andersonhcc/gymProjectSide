@@ -1,10 +1,9 @@
 import React, { useCallback, useMemo } from "react";
-import { useColorScheme } from 'react-native';
+import { useColorScheme } from "react-native";
 import { LightTheme, DarkTheme } from "./src/styles";
 import { SignIn } from "./src/screens/SignIn";
-import * as SplashScreen from 'expo-splash-screen';
-import { ThemeProvider } from 'styled-components';
-
+import * as SplashScreen from "expo-splash-screen";
+import { ThemeProvider } from "styled-components";
 
 import {
   useFonts,
@@ -13,11 +12,11 @@ import {
   Poppins_700Bold,
   Poppins_500Medium,
   Poppins_400Regular_Italic,
-} from '@expo-google-fonts/poppins'
+} from "@expo-google-fonts/poppins";
 
 import {
   PTSans_700Bold,
-} from '@expo-google-fonts/pt-sans'
+} from "@expo-google-fonts/pt-sans";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.hideAsync();
@@ -32,7 +31,7 @@ export default function App() {
   }, [deviceColor]);
 
 
-  let [fontsLoaded] = useFonts({
+  const [fontsLoaded] = useFonts({
     Poppins_400Regular,
     Poppins_700Bold,
     Poppins_500Medium,
@@ -52,9 +51,9 @@ export default function App() {
 
 
   return (
-   <ThemeProvider theme={themes}>
-     <SignIn />
-   </ThemeProvider>
-  )
+    <ThemeProvider theme={themes}>
+      <SignIn />
+    </ThemeProvider>
+  );
 }
 
