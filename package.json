@@ -1,5 +1,5 @@
 {
-  "name": "gymprojectside",
+  "name": "DevGuide",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/lato": "^0.2.2",
     "@expo-google-fonts/poppins": "^0.2.2",
     "@expo-google-fonts/pt-sans": "^0.2.2",
     "@types/react": "~18.0.24",

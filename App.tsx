@@ -7,12 +7,11 @@ import { ThemeProvider } from "styled-components";
 
 import {
   useFonts,
-  Poppins_400Regular,
-  Poppins_600SemiBold,
-  Poppins_700Bold,
-  Poppins_500Medium,
-  Poppins_400Regular_Italic,
-} from "@expo-google-fonts/poppins";
+  Lato_400Regular,
+  Lato_400Regular_Italic,
+  Lato_700Bold,
+  Lato_300Light
+} from "@expo-google-fonts/lato";
 
 import {
   PTSans_700Bold,
@@ -32,11 +31,10 @@ export default function App() {
 
 
   const [fontsLoaded] = useFonts({
-    Poppins_400Regular,
-    Poppins_700Bold,
-    Poppins_500Medium,
-    Poppins_600SemiBold,
-    Poppins_400Regular_Italic,
+    Lato_400Regular,
+    Lato_400Regular_Italic,
+    Lato_700Bold,
+    Lato_300Light,
     PTSans_700Bold,
   });
 
