@@ -1088,6 +1088,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@expo-google-fonts/itim@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/itim/-/itim-0.2.2.tgz#ea455d599377500a7f78a7bebf64828d531dc269"
+  integrity sha512-i38KMdZMqJbVBNJA15nvFxfITP6dMWI021j8gWLN2N8TuCSJlgUhLwRBSxjUE0hrg4TkwHMancQ8w4N1BpE3rg==
+
 "@expo-google-fonts/lato@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/lato/-/lato-0.2.2.tgz#777a757a74c03a2677ed33dacd7df61cd65b735e"

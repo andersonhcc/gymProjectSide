@@ -6,6 +6,11 @@ import * as SplashScreen from "expo-splash-screen";
 import { ThemeProvider } from "styled-components";
 
 import {
+  Itim_400Regular,
+} from "@expo-google-fonts/itim";
+
+
+import {
   useFonts,
   Lato_400Regular,
   Lato_400Regular_Italic,

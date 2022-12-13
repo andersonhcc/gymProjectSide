@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/itim": "^0.2.2",
     "@expo-google-fonts/lato": "^0.2.2",
     "@expo-google-fonts/poppins": "^0.2.2",
     "@expo-google-fonts/pt-sans": "^0.2.2",
